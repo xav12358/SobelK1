@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="fill_parent"
+    a:layout_height="fill_parent"
+    a:baselineAligned="true"
+    a:orientation="horizontal" >
+
+    <LinearLayout
+        a:layout_width="fill_parent"
+        a:layout_height="match_parent"
+        a:layout_weight="1"
+        a:orientation="vertical" >
+
+        <ImageView
+            a:id="@+id/imageView"
+            a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:layout_weight="4.75" />
+
+        <TextView
+            a:id="@+id/textView"
+            a:layout_width="match_parent"
+            a:layout_height="121dp"
+            a:layout_weight="1.47" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        a:layout_width="fill_parent"
+        a:layout_height="fill_parent"
+        a:layout_weight="1"
+        a:orientation="vertical" >
+
+        <android.opengl.GLSurfaceView
+            a:id="@+id/imageViewGL"
+            a:layout_width="match_parent"
+            a:layout_height="0dp"
+            a:layout_weight="1.05" />
+    </LinearLayout>
+
+</LinearLayout>
